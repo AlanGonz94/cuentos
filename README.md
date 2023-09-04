@@ -14,15 +14,16 @@ El codigo se basa principalmente en la funcion if, en que segun las decisiones q
 
 Como sea que vayas decidiendo las variables de respuestas pasaran de un estado inicial falso al estar inactivas, a true cuando tu las activas y eso dara pie a que texto te saldra y a la nueva pregunta con 2 opciones para decidir el futuro de nuestro protagonista.
 Si quieres puedes dejar de leer aqui y empezar a analizar el codigo.
--
--
--
--
+
+
+
+
 Ejemplo para comprender mejor la descripcion:
 #if elinput1fue__B == True:     
 *si en la encuesta 1 elegiste la opcion b te colocara la encuesta luego del texto de la historia*
+
 #    input2 = str(input ("""    
-*Responde con una letra minuscula.*
+#Responde con una letra minuscula.
 #¿Que hará Diego?
 #a. continuar buscando.
 #b. ir a casa por hoy.
